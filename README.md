@@ -1,3 +1,3 @@
 # responsive_resume 
 
-test
+This a project for the Udacity Front-end Developer Nanodegree.
