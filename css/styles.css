@@ -6,10 +6,7 @@ body ,html {
 }
 
 
-body {
-	font: 20px;
-	color: #2d3c49;
-}
+
 
 
 header{
@@ -18,7 +15,6 @@ header{
 	flex-wrap: wrap;
 	flex-direction: column;
 	max-width: 100%;
-	/* width: 900px; */
 	height: 150px;
 	background-color: #F2E8FF;
 	border-bottom: 5px solid #AD74FF;
@@ -39,8 +35,7 @@ header{
 
 
 #logo_picture img:hover {
-	-ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Safari */
+
     transform: rotate(45deg);
 }
 
@@ -63,7 +58,7 @@ header{
 	margin-top: 10px;
 	margin-bottom: 20px;
 	border-radius: 8px;
-	max-width: 90%;
+	max-width: 100%;
 	max-height: 40%;
 	vertical-align: middle;
 	box-shadow: 8px 8px 8px 0 #F2E8FF;
@@ -71,27 +66,18 @@ header{
 
 
 
-.headline {
-	display: block;
-	font-family: "Viner Hand ITC", serif;
-	color: #6B3AFF;
-	margin-right: -15px;
-    
-}
+
 
 #content {
 	display: flex;
 	width: 900px;
 	max-width: 100%;
-	justify-content;
+	justify-content: center;
+	text-align: center;
+	
+	
 	
 }
-
-.center {
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .feature-work {
 	width: 900px;
 	max-width: 100%;
@@ -101,11 +87,23 @@ header{
 	margin-bottom: 20px;
 	
 }
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.headline {
+	display: block;
+	font-family: "Viner Hand ITC", serif;
+	color: #6B3AFF;
+	margin-right: -15px;
+    
+}
 
 .style-card {
 	box-shadow: 2px 2px 4px 0 #F2E8FF;
 	width: 30%;
-	max-width: 300px;
+	max-width: 250px;
 	text-align: center;
 	margin: 10px;
 	padding: 10px;
@@ -122,15 +120,16 @@ header{
 	overflow: visible;
 	height:200px;
 	width: 100%;
-	object-fit: fill;
+	
 }
 
 
 .my-link {
 	font-size: 1em;
+	font-family: Verdana, sans-serif;
 	font-weight: bold;
 	text-decoration: none;
-	color: #953;
+	color: #6B3AFF;
 }
 
 .my-link:hover {
@@ -138,9 +137,9 @@ header{
 }
 
 a {
-	color: #864;
+	color: #6B3AFF;
 	text-decoration: none;
-	border-radius: 50%;
+	border-radius: 25%; 
 }
 
 a:hover {
@@ -151,7 +150,7 @@ a:hover {
 }
 
 footer {
-	/*width: 900px; */
+	
 	max-width: 100%;
 	margin-top: 20px;
 	text-align: center;
@@ -169,9 +168,9 @@ footer img {
 	margin: 7 px;
 }
 footer img:hover {
-	-webkit-transform: scale(1.5); /* Safari */
+	
     transform: scale(1.5);
-	-ms-transform: scale(1.5); /* IE 9 */
+
 }
 
 .footer_div	 {
@@ -187,10 +186,14 @@ footer img:hover {
 	#content {
 		flex-wrap: wrap;
 		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		float: center;
 	}
 
 	.style-card {
-		min-width: 40%;
+		float: center;
+		min-width: 250px;
 		max-width: 50%;
 		padding: 5px;
 		margin-left: auto;
@@ -200,8 +203,9 @@ footer img:hover {
 	
 
 	.chunk img {
-		height: 250px;
-		object-fit: fill;
+		height: 200px;
+		width: 200px;
+
 	}
 
 	.feature-work {
@@ -232,11 +236,11 @@ footer img:hover {
 
 	#header-title {
 		margin: -30px 1px;
-		/* margin: 0; */
+	
 	}
 
 	.style-card {
-		min-width:70%;
+		min-width:50%;
 	}
 	
 	.chunk {
@@ -244,9 +248,9 @@ footer img:hover {
 	}
 
 	.chunk img{
-		height:250px;
-		/* width: 100%; */
-		object-fit: fill;
+		height:200px;
+		width: 200px;
+	
 	}
 
 	.chunk p {
