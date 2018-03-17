@@ -100,7 +100,7 @@ header{
     
 }
 
-.style-card {
+.projectcard {
 	box-shadow: 2px 2px 4px 0 #F2E8FF;
 	width: 30%;
 	max-width: 250px;
@@ -112,12 +112,12 @@ header{
 	flex: 1;
 }
 
-.style-card:hover {
+.projectcard:hover {
 	background-color: #F2E8FF;
 }
 
-.chunk img {
-	overflow: visible;
+.card_field img {
+	overflow: visible; 
 	height:200px;
 	width: 200px;
 	
@@ -191,7 +191,7 @@ footer img:hover {
 		float: center;
 	}
 
-	.style-card {
+	.projectcard {
 		float: center;
 		min-width: 250px;
 		max-width: 50%;
@@ -202,7 +202,7 @@ footer img:hover {
 
 	
 
-	.chunk img {
+	.card_field img {
 		height: 200px;
 		width: 200px;
 
@@ -239,21 +239,21 @@ footer img:hover {
 	
 	}
 
-	.style-card {
+	.projectcard {
 		min-width:50%;
 	}
 	
-	.chunk {
+	.card_field {
 		width:100%;
 	}
 
-	.chunk img{
+	.card_field img{
 		height:200px;
 		width: 200px;
 	
 	}
 
-	.chunk p {
+	.card_field p {
 		font-size: 1em;
 	}
 
