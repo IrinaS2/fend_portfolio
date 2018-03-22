@@ -5,10 +5,6 @@ body ,html {
 	height: 100%;
 }
 
-
-
-
-
 header{
 	display: flex;
     justify-content: flex-start;
@@ -22,8 +18,6 @@ header{
 	margin-bottom: 20px;
 }
 
-
-
 #logo_picture img {
 	margin: 25px 10px;
 	border-radius: 50%;
@@ -33,12 +27,9 @@ header{
 	box-shadow: 2px 2px 15px #aab;
 }
 
-
 #logo_picture img:hover {
-
     transform: rotate(45deg);
 }
-
 
 #header-title {
 	margin-top: 10px;
@@ -46,10 +37,8 @@ header{
 	text-align: right;
 	padding: 0 20px;
 	margin: -10px;
-	
-	
+	font-weight: bold;
 }
-
 
 #big_picture {
 	background: no-repeat center/cover url("../img/colors1.jpg");  
@@ -64,20 +53,14 @@ header{
 	box-shadow: 8px 8px 8px 0 #F2E8FF;
 }
 
-
-
-
-
 #content {
 	display: flex;
 	width: 900px;
 	max-width: 100%;
 	justify-content: center;
 	text-align: center;
-	
-	
-	
 }
+
 .feature-work {
 	width: 900px;
 	max-width: 100%;
@@ -85,19 +68,19 @@ header{
 	border-top: 5px solid #AD74FF;
 	border-bottom: 5px solid #AD74FF;
 	margin-bottom: 20px;
-	
+	background-color: #F2E8FF;
 }
+
 .center {
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .headline {
-	display: block;
 	font-family: "Viner Hand ITC", serif;
 	color: #6B3AFF;
 	margin-right: -15px;
-    
+	padding-left: 20px;
 }
 
 .style-card {
@@ -117,12 +100,12 @@ header{
 }
 
 .chunk img {
-	overflow: visible;
+
+	display: flex;
+	flex-direction: column;
 	height:200px;
 	width: 200px;
-	
 }
-
 
 .my-link {
 	font-size: 1em;
@@ -146,11 +129,9 @@ a:hover {
 	color: #852;
 	text-decoration: underline;
 	box-shadow: 5px 5px 22px #9aa;
-    
 }
 
 footer {
-	
 	max-width: 100%;
 	margin-top: 20px;
 	text-align: center;
@@ -160,26 +141,18 @@ footer {
 	valign center;
 }
 
-
-
 footer img {
 	width: 30px;
 	height: 30px;
 	margin: 7 px;
 }
 footer img:hover {
-	
     transform: scale(1.5);
-
 }
 
 .footer_div	 {
 	padding: 10px;
 }
-
-
-}
-
 
 /* breakpoints */
 @media screen and (max-width: 900px) {
@@ -200,12 +173,12 @@ footer img:hover {
 		margin-right: auto;
 	}
 
-	
-
 	.chunk img {
+		display: flex;
 		height: 200px;
 		width: 200px;
-
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.feature-work {
@@ -231,12 +204,10 @@ footer img:hover {
 	header {
 		display: flex;
 		height: 120px;
-		
 	}
 
 	#header-title {
 		margin: -30px 1px;
-	
 	}
 
 	.style-card {
@@ -250,7 +221,8 @@ footer img:hover {
 	.chunk img{
 		height:200px;
 		width: 200px;
-	
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.chunk p {
@@ -261,5 +233,3 @@ footer img:hover {
 		font-size: 1em;
 		text-align: center;
 	}
-
-}
