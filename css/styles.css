@@ -10,7 +10,8 @@ header{
     justify-content: flex-start;
 	flex-wrap: wrap;
 	flex-direction: column;
-	max-width: 100%;
+	width: 900px;
+	max-width: 900px;
 	height: 150px;
 	background-color: #F2E8FF;
 	border-bottom: 5px solid #AD74FF;
@@ -132,7 +133,8 @@ a:hover {
 }
 
 footer {
-	max-width: 100%;
+	width: 900px;
+	max-width: 99,99%;
 	margin-top: 20px;
 	text-align: center;
 	font-size: 23px;
