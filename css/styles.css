@@ -207,7 +207,10 @@ footer img:hover {
 
 	#header-title {
 		margin: 10px 1px;
-		
+	}
+	
+	h1, h4 {
+		border: 1px solid black;
 	}
 
 	.style-card {
