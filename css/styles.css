@@ -81,6 +81,7 @@ header {
 	color: #6B3AFF;
 	/*margin-right: -15px; */
 	padding-left: 20px;
+	border: 1px solid blue;
 }
 
 .style-card {
