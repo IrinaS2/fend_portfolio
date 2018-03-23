@@ -84,6 +84,10 @@ header {
 	border: 1px solid blue;
 }
 
+h1, h4 {
+		border: 1px solid black;
+	}
+
 .style-card {
 	box-shadow: 2px 2px 4px 0 #F2E8FF;
 	width: 30%;
@@ -209,10 +213,6 @@ footer img:hover {
 		margin: 10px 1px;
 	}
 	
-	h1, h4 {
-		border: 1px solid black;
-	}
-
 	.style-card {
 		min-width:50%;
 	}
