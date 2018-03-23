@@ -213,7 +213,9 @@ footer img:hover {
 	#header-title {
 		margin: 10px 1px;
 		max-width: 60%;
+		font-size: 1em;
 	}
+	
 	
 	.style-card {
 		min-width:50%;
