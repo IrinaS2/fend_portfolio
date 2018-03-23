@@ -40,6 +40,10 @@ header {
 	border: 1px solid black;
 }
 
+.name {
+	font-size: 1em;
+}
+
 #big_picture {
 	background: no-repeat center/cover url("../img/colors1.jpg");  
 	width: 900px;
