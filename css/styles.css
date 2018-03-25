@@ -37,7 +37,7 @@ header {
 	padding: 0 20px;
 	/* margin-bottom: 10px; */
 	font-weight: bold;
-	border: 1px solid black;
+	
 }
 
 .name {
@@ -85,11 +85,11 @@ header {
 	color: #6B3AFF;
 	/*margin-right: -15px; */
 	padding-left: 20px;
-	border: 1px solid blue;
+	
 }
 
 h1, h4 {
-		border: 1px solid black;
+		
 		margin-top: 2 px;
 	}
 
